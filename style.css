@@ -629,3 +629,48 @@ img{
 .post-photo{
   width: 100%;
 }
+@media (max-width: 768px){
+
+  .menu,
+  .right-menu{
+    display: none;
+  }
+
+  .main{
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  header{
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .main-nav{
+    order: 3;
+    width: 100%;
+  }
+
+  .main-nav nav{
+    justify-content: space-around;
+  }
+
+  .search-bar{
+    width: 10rem;
+  }
+
+  .reel{
+    min-width: 60%;
+  }
+
+  .cover{
+    width: 8rem;
+    height: 14rem;
+  }
+
+  .post-photo{
+    height: 35vh;
+  }
+}
